@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Anime quotes</string>
+    <string name="anime_category">Anime Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="populer_anime">Populer Anime</string>
+    <string name="viewall">ViewAll</string>
+    <string name="populer_quotes">Populer Quotes</string>
+</resources>
