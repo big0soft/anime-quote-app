@@ -40,6 +40,24 @@ android {
         def properties = new Properties()
         var encrypt = new UrlAesEncryption2("VGG1KP0BRXaJz54")
         properties.load(project.rootProject.file('local.properties').newDataInputStream())
+//        #this variable for local api url
+//#AA1=http://%s:9190/api/v1/
+//AA1=http://%s:9190/api/v%s/
+//#this variable for api url
+//#AA2=https://ahmad-dev.com:8443/app-hack-pubg-2/api/v2/
+//AA2=https://ahmad-dev.com:8443/support-hack-pubg-%s/api/v%s/
+//#this variable for url encrytion
+//AA3=VGG1KP0BRXaJz54
+//#this variable for text encrytion
+//AA4=94Tkn7vtjQ4ikrb
+//#this variable for application version
+//AA5=1
+//#this for debug api version
+//AA6=1
+//#this for release api version
+//AA7=1
+//#password version 2 of application (VGG1KP0BRXaJz54)
+//#http://154.56.63.158/
 
         buildConfigField("String", "AA1", "\"${encrypt.encode(properties.getProperty('AA1'))}\"")
         buildConfigField("String", "AA2", "\"${encrypt.encode(properties.getProperty('AA2'))}\"")
